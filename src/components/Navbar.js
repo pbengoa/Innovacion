@@ -23,7 +23,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            IIC3103 <i className="fab fa-typo3"/>
+            AGROSTICK <i className="fab fa-typo3"/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click? 'fas fa-times' : 'fas fa-bars'} />
@@ -36,12 +36,12 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link to='/users' className='nav-links' onClick={closeMobileMenu}>
-                Usuarios
+                Sobre nosotros
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/cities' className='nav-links' onClick={closeMobileMenu}>
-                Ciudades
+              <Link to='/simulacion' className='nav-links' onClick={closeMobileMenu}>
+                Simulación
               </Link>
             </li>
           </ul>
